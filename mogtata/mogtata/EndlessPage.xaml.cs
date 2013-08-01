@@ -19,9 +19,9 @@ namespace mogtata
     /// <summary>
     /// それ自体で使用できる空白ページまたはフレーム内に移動できる空白ページ。
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class EndlessPage : Page
     {
-        public MainPage()
+        public EndlessPage()
         {
             this.InitializeComponent();
         }
@@ -33,24 +33,6 @@ namespace mogtata
         /// プロパティは、通常、ページを構成するために使用します。</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-        }
-
-        private void button1_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(GamePage));
-        }
-
-        private void Page_SizeChanged(object sender, SizeChangedEventArgs e)
-        {
-            if (e.NewSize.Width < 330)
-            {
-                this.Frame.Navigate(typeof(SnapPage));
-            }
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(EndlessPage));
         }
     }
 }

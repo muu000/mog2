@@ -17,5 +17,6 @@
                 <CompositeTransform/>
             </Image.RenderTransform>
         </Image>
+        <Button Content="エンドレスモード" HorizontalAlignment="Center" Margin="0,500,0,0" VerticalAlignment="Center" Height="63" Width="271" FontSize="36" Click="Button_Click"/>
     </Grid>
 </Page>

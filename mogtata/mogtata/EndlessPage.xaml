@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="mogtata.EndlessPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:mogtata"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#E5500000">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Left" Height="1430" VerticalAlignment="Top" Width="2550">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="エンドレスモード" VerticalAlignment="Top" Height="71" Width="278" FontFamily="Global User Interface" FontSize="30"/>
+            <StackPanel HorizontalAlignment="Left" Height="300" Margin="0,0,0,0" Width="2550" Orientation="Horizontal">
+                <Image Height="300" Width="300" Margin="0,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" Height="300" Margin="0,0,0,0" Width="2540" Orientation="Horizontal">
+                <Image Height="300" Width="300" Margin="180,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" Height="300" Margin="0,0,0,0" Width="2540" Orientation="Horizontal">
+                <Image Height="300" Width="300" Margin="0,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" Height="300" Margin="0,0,0,0" Width="2540" Orientation="Horizontal">
+                <Image Height="300" Width="300" Margin="180,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+                <Image Height="300" Width="300" Margin="20,0,0,0" Source="Assets/mog_a_300x300.png"/>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Page>
